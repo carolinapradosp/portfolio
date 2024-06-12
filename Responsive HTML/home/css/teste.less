@@ -1,0 +1,173 @@
+.modal-dialog {
+    @media (min-width:768px) {
+        width: 62%;
+
+    }
+}
+
+.modal-content {
+    border-radius: 0;
+    box-shadow: none;
+    padding: 0;
+
+    button.close {
+        padding: 20px;
+    }
+
+    .line-blue {
+        background: #003166;
+        padding: 17px 0;
+        margin-top: 60px;
+
+        h2 {
+            color: #77F5A2;
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 36.31px;
+            text-align: center;
+            text-transform: uppercase;
+            margin: 0;
+        }
+
+        h3 {
+            color: #77F5A2;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 36.31px;
+            text-align: center;
+            text-transform: uppercase;
+            margin: 0;
+        }
+
+        p {
+            color: #77F5A2;
+            font-size: 14px;
+        }
+    }
+
+    .tabela-cupons {
+        .container {
+            width: 100%;
+            padding: 5%;
+        }
+
+        .row {
+            display: flex;
+            align-items: center;
+        }
+
+        @media(max-width:992px) {
+            .col-md-5 {
+                width: 41.66666667%;
+            }
+
+            .col-md-4 {
+                width: 33.33333333%;
+            }
+
+            .col-md-3 {
+                width: 25%;
+            }
+        }
+
+        .line-table {
+            height: 1px;
+            background-color: #CECECE;
+            margin: 20px 0;
+        }
+
+        h3 {
+            font-size: 17px;
+            font-weight: 700;
+            line-height: 20.57px;
+            text-align: left;
+            color: #000;
+            margin-bottom: 30px;
+            margin-top: 0;
+        }
+
+        p {
+            font-size: 16px;
+
+            @media (min-width:320px) and (max-width:410px) {
+                font-size: 14px;
+            }
+
+            font-weight: 400;
+            line-height: 19.36px;
+            text-align: left;
+            color: #3D3D3D;
+        }
+
+        a {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 16.94px;
+            text-align: left;
+            color: #3D3D3D;
+        }
+
+        .por {
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 19.36px;
+            text-align: left;
+            color: #003166;
+        }
+
+        .cupom {
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 19.36px;
+            color: #003166;
+            margin-left: 20px;
+            padding: 5px 9px;
+
+            @media (max-width:1340px) {
+                float: left;
+                width: 100%;
+                margin-left: 0;
+            }
+        }
+    }
+
+    .oferta-container {
+        display: flex;
+        width: 70%;
+        margin: 40px auto;
+
+        @media (max-width:768px) {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .text {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            text-align: left;
+            margin-left: 20px;
+
+            @media (max-width:768px) {
+                align-items: center;
+                text-align: left;
+                margin-left: auto;
+            }
+
+            p {
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 16.94px;
+                text-align: left;
+
+                @media (max-width:768px) {
+                    text-align: center;
+                }
+            }
+
+            .font-voxRound {
+                font-size: 28px;
+            }
+        }
+    }
+}

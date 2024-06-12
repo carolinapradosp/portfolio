@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Checkout</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/checkout.css">
+</head>
+
+<body>
+    <div class="container-checkout">
+        <div class="pagamento">
+            <img src="img/logo-azul.png" alt="Mercado Magistral">
+            <h2>CHECKOUT</h2>
+            <div class="container-pagamento">
+                <h2>PAGAMENTO</h2>
+
+                <!-- Cartão -->
+                <div class="form-group">
+                    <div class="form-check" id="cartao">
+                        <input class="form-check-input" type="radio" name="forma-pagamento" id="cartaoCreditoRadio" data-toggle="collapse" data-target="#cartaoCredito"
+                            aria-controls="cartaoCredito">
+                        <label class="form-check-label" for="cartaoCreditoRadio"><span>Cartão de crédito</span>
+                            <div id="cartaoCredito" class="collapse" data-parent="#cartao">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <input type="text" name="cartao" class="form-input bandeiras"
+                                            placeholder="Número do cartão*">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <input type="text" name="nomeCompleto" class="form-input"
+                                            placeholder="Maria Silva">
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <input type="text" name="validade" class="form-input" placeholder="05/28">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="text" name="ccv" class="form-input marginMob" placeholder="123">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="select-wrapper">
+                                            <select name="select" class="form-input">
+                                                <option value="valor1">R$29,90</option>
+                                                <option value="valor2" selected>R$29,90</option>
+                                                <option value="valor3">R$29,90</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+                <!-- /Cartão -->
+
+
+                <!-- Boleto -->
+                <div class="form-group">
+                    <div class="form-check">
+                        <input class="form-check-input collapsed" type="radio" name="forma-pagamento" id="inlineRadio1"
+                            value="option1" data-toggle="collapse" data-target="#boleto" 
+                            aria-controls="boleto">
+                        <label class="form-check-label" for="inlineRadio1"><span>Boleto</span>
+                            <div id="boleto" class="collapse">
+                            </div>
+                        </label>
+                    </div>
+                </div>
+                <!-- /Boleto -->
+
+                <div>
+                    <a href="#" class="finalizar-pagamento">Finalizar pagamento</a>
+                </div>
+            </div>
+        </div>
+        <div class="resumo-pedido">
+            <h2>RESUMO DO PEDIDO</h2>
+
+            <div class="produto">
+                <div class="img">
+                    <img src="img/HelloFarma.png" alt="HelloFarma" width="45">
+                </div>
+                <div class="content">
+                    <div class="content-details">
+                        <p class="name">MMCONNECT</p>   
+                        <p>Quantidade: 1</p>    
+                        <p>Valor de assinatura mensal</p>  
+                    </div>
+                    
+                    <div class="content-total"><span>R$ 54,85 X</span></div>        
+                </div>
+            </div>
+
+            <div class="cupom">
+               <h3>CÓDIGO PROMOCIONAL</h3>
+               <div class="row">
+                <div class="col-md-12">
+                    <div class="container-input-cupon">
+                        <input type="text" name="cupom" class="form-input"
+                        placeholder="Inserir código promocional">
+                        <button type="submit">APLICAR</button>
+                    </div>
+                    
+                </div>
+            </div>
+            </div>
+
+            <div class="total">
+                <div class="subtotal">
+                    <div>Subtotal</div>
+                    <div>R$ 82,80</div>
+                </div>
+                <div class="desconto">
+                    <div>Desconto</div>
+                    <div>R$ 10,00</div>
+                </div>
+                <div class="precototal">
+                    <div>Total</div>
+                    <div>R$ 72,80</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer id="contato">
+        <div class="logo">
+            <img src="img/logo-transparente.png" alt="Mercado Magistral">
+        </div>
+
+        <div class="rodape-content">
+            <div class="left">
+                <h2 class="titulo-footer">SOBRE NÓS</h2>
+                <p>Fundada em 2015, a empresa MercadoMagistral (anteriormente conhecida como Infomerc) se destaca como a
+                    pioneira em inteligência dedicada exclusivamente ao
+                    setor magistral.
+                </p>
+
+                <h2 class="titulo-footer mtop70">NOS SIGA</h2>
+                <div class="redes-sociais">
+                    <div><img src="img/instagram.png" alt="Acesse nosso instagram"></div>
+                    <div><img src="img/facebook.png" alt="Acesse nosso Facebook"></div>
+                    <div><img src="img/linkedin.png" alt="Acesse nosso Linkedin"></div>
+                    <div><img src="img/youtube.png" alt="Acesse nosso Youtube"></div>
+                </div>
+            </div>
+
+
+            <div class="center">
+                <div class="fale-conosco">
+                    <div class="icon"><img src="img/whats.png" alt="Fale conosco no WhatsApp"></div>
+                    <div class="info">
+                        <h2 class="titulo-footer">FALE CONOSCO</h2>
+                        <p>+55 19 3112-4630</p>
+                    </div>
+                </div>
+
+                <div class="email">
+                    <div class="icon"><img src="img/email.png" alt="Entre em contato por e-mail"></div>
+                    <div class="info">
+                        <h2 class="titulo-footer">E-MAIL</h2>
+                        <p>contato@mercadomagistral.com.br</p>
+                    </div>
+                </div>
+
+                <div class="endereco">
+                    <div class="icon"><img src="img/ping.png" alt="Nosso endereço"></div>
+                    <div class="info">
+                        <h2 class="titulo-footer">ENDEREÇO</h2>
+                        <p>Rua Plínio Aveniente, 200<br>
+                            Campinas - SP</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="right">
+                <h2 class="titulo-footer">NÓS ENTRAMOS EM CONTATO</h2>
+                <form action="#" method="post">
+                    <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
+
+                    <textarea id="mensagem" name="mensagem" rows="5" placeholder="Sua mensagem" required></textarea>
+
+                    <button type="submit">enviar mensagem</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>© Copyright 2024 - MERCADOMAGISTRAL. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/jquery-3.4.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            document.querySelector('.select-wrapper select').addEventListener('focus', function () {
+                this.parentNode.classList.add('is-focused');
+            });
+
+            document.querySelector('.select-wrapper select').addEventListener('blur', function () {
+                this.parentNode.classList.remove('is-focused');
+            });
+
+            $('.form-check-input').click(function () {
+                $('.collapse').collapse('hide');
+                $('#' + $(this).attr('aria-controls')).collapse('show');
+            });
+
+            $(document).ready(function () {
+                function updateParentState() {
+                    $('.form-check-input').each(function () {
+                        if ($(this).attr('aria-expanded') === 'true') {
+                            $(this).closest('.form-group').addClass('expanded-parent');
+                        } else {
+                            $(this).closest('.form-group').removeClass('expanded-parent');
+                        }
+                    });
+                }
+
+                updateParentState();
+
+                $('.form-check-input').on('click', function () {
+                    setTimeout(updateParentState, 0);
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
