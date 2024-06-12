@@ -1,0 +1,11 @@
+https://www.frigelar.com.br/
+OCC Classic - Desenvolvimento de todo fluxo (Home, Detalhes de produto, Cart, Coleção, Checkout, Confirmação de pedido);
+Integração basket to basket com a Danfos.
+
+
+https://www.oi.com.br/
+OCC Classic.
+
+
+https://www.semarentrega.com.br/
+OCC Classic.
