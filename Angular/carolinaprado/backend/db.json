@@ -1,0 +1,72 @@
+{
+  "portfolio": {
+    "nomeCompleto": "Carolina Prado",
+    "telefone": "11913288205",
+    "email": "carolina.prado@live.com",
+    "linkedin": "https://www.linkedin.com/in/carolinaprado/",
+    "habilidades": "- Experiência no desenvolvimento de sites utilizando HTML, CSS, Bootstrap, LESS, SASS, JavaScript, JSON, API REST, Node JS e versionamento com GIT;\n - Banco de Dados relacional e não relacional;\n - Desenvolvimento de sites em WordPress/WooCommerce, desde a criação até a publicação;\n - Criação de wireframes, design de layouts e implementação completa de sites responsivos;\n - Desenvolvimento Mobile, Pixel Perfect;\n - Desenvolvimento de imagens e vetores com Photoshop, Illustrator e Figma;\n - Conhecimento em TypeScript e Angular;\n - Implementação de layout para e-commerce utilizando Oracle Commerce Cloud - Classic;\n - Compromisso com as boas práticas na criação e publicação de sites, conceitos de usabilidade, acessibilidade, conformidade com os padrões W3C e SEO;\n - Metodologia Ágil com: Trello, JIRA, Kanban e DevOps;",
+    "experiencias": [
+      {
+        "id": 1,
+        "empresa": "Aggrandize",
+        "cargo": "Front-end",
+        "descricao": {
+          "linha1": "- Desenvolvimento de e-commerce utilizando OCC Classic;",
+          "linha2": "- Suporte ao cliente, deploy;",
+          "linha3": "- Versionamento com Git."
+        },
+        "inicio": 2023,
+        "fim": 2024
+      },
+      {
+        "id": 2,
+        "empresa": "JBQ",
+        "cargo": "Front-end",
+        "descricao": {
+          "linha1": "- Desenvolvimento de E-mail Marketing e Transacional utilizando as melhores práticas para criação de layout responsivo, garantindo a máxima entregabilidade;",
+          "linha2": "- Desenvolvimento de e-commerce utilizando OCC - Oracle Commerce Cloud - Classic;",
+          "linha3": "- Versionamento com Git."
+        },
+        "inicio": 2020,
+        "fim": 2022
+      },
+      {
+        "id": 3,
+        "empresa": "Adin",
+        "cargo": "Web Designer / Front-End",
+        "descricao": {
+          "linha1": "- Desenvolvimento de E-mail Marketing, subida de base, criação de filtro, audiência, programas e campanha para disparos utilizando Oracle Responsys;",
+          "linha2": "- Desenvolvimento de e-commerce utilizando OCC - Oracle Commerce Cloud;",
+          "linha3": "- Desenvolvimento de sites em WordPress;",
+          "linha4": "- Front-end para ferramentas Oracle Cloud."
+        },
+        "inicio": 2017,
+        "fim": 2020
+      },
+      {
+        "id": 4,
+        "empresa": "Mitsumi Tecnologia",
+        "cargo": "Web Designer",
+        "descricao": {
+          "linha1": "- Desenvolvimento e manutenção de sites e interfaces para sistemas;",
+          "linha2": "- Wireframes."
+        },
+        "inicio": 2015,
+        "fim": 2016
+      },
+      {
+        "id": 5,
+        "empresa": "Interelo Sistemas",
+        "cargo": "Web Designer / Front-End",
+        "descricao": {
+          "linha1": "- Diagramação, montagem e manutenção de sites;",
+          "linha2": "- Manutenção de sites institucionais e de e-commerce;",
+          "linha3": "- Suporte e atendimento ao cliente."
+        },
+        "inicio": 2010,
+        "fim": 2015
+      }
+    ],
+    "formacao": "Téc. Análise e Desenvolvimento de Sistemas, Braz Cubas, DEZ 2024"
+  }
+}

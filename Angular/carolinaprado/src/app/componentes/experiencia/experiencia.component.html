@@ -1,0 +1,16 @@
+<section class="container">
+    <h2>Experiência</h2>
+
+    <div *ngFor="let experiencia of portfolio?.experiencias" class="experiencia">
+      <h3>{{ experiencia.empresa }}</h3>
+      <p>Cargo: {{ experiencia.cargo }}</p>
+      <p>Período: {{ experiencia.inicio }} - {{ experiencia.fim }}</p>
+
+      <div class="descricao">
+        <p>{{ experiencia.descricao.linha1 }}</p>
+        <p>{{ experiencia.descricao.linha2 }}</p>
+        <p>{{ experiencia.descricao.linha3 }}</p>
+        <p *ngIf="experiencia.descricao.linha4">{{ experiencia.descricao.linha4 }}</p>
+      </div>
+    </div>
+</section>
