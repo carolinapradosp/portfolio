@@ -1,11 +1,13 @@
 //SOBRE
 
-Este projeto é um portfólio em Angular. 
-Criei um banco não relacional com JSON para execução local.
+Este projeto é um portfólio em Angular 17. 
+Criei um banco de dados não relacional com JSON para execução local.
 
 
 
 //EXECUTANDO O PROJETO
+
+Após instalação dos pacotes...
 
 Terminal 1
 Execute o comando ng serve
