@@ -1,0 +1,63 @@
+{
+    "data": [
+        {
+            "id": 784,
+            "logo": null,
+            "name": "Panevezys W"
+        },
+        {
+            "id": 1635,
+            "logo": "https://highlightly.net/basketball/images/teams/1635.png",
+            "name": "Melbourne United"
+        },
+        {
+            "id": 2486,
+            "logo": "https://highlightly.net/basketball/images/teams/2486.png",
+            "name": "South East Melbourne"
+        },
+        {
+            "id": 3337,
+            "logo": "https://highlightly.net/basketball/images/teams/3337.png",
+            "name": "Cairns"
+        },
+        {
+            "id": 4188,
+            "logo": "https://highlightly.net/basketball/images/teams/4188.png",
+            "name": "Sydney"
+        },
+        {
+            "id": 5039,
+            "logo": null,
+            "name": "Perth"
+        },
+        {
+            "id": 5890,
+            "logo": "https://highlightly.net/basketball/images/teams/5890.png",
+            "name": "Illawarra Hawks"
+        },
+        {
+            "id": 6741,
+            "logo": "https://highlightly.net/basketball/images/teams/6741.png",
+            "name": "Brisbane Bullets"
+        },
+        {
+            "id": 7592,
+            "logo": "https://highlightly.net/basketball/images/teams/7592.png",
+            "name": "Adelaide"
+        },
+        {
+            "id": 8443,
+            "logo": "https://highlightly.net/basketball/images/teams/8443.png",
+            "name": "New Zealand Breakers"
+        }
+    ],
+    "plan": {
+        "tier": "BASIC",
+        "message": "All data available with current plan."
+    },
+    "pagination": {
+        "totalCount": 5165,
+        "offset": 0,
+        "limit": 10
+    }
+}
