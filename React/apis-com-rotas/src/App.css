@@ -1,0 +1,36 @@
+body{
+  background-image: url('images/bg-fut.jpg');
+  background-size: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+.container, #root div{
+  width: 80%;
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+select{
+  width: 250px;
+  height: 50px;
+  font-size: 16px;
+  padding: 0 10px;
+}
+
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+ul li{
+  list-style: none !important;
+  padding: 15px;
+  margin: 5px 0;
+}
+
+li:nth-child(2n+1) {
+    background: #f4f4f4;
+}
