@@ -1,8 +1,5 @@
 https://poaquiro.com.br/
 Wordpress feito utilizando as melhores práticas de SEO, Performance e Acessibilidade.
 
-https://maniatacado.com.br/
-WooCommerce.
-
 https://cleberpsicologia.com.br/
 Wordpress. O cliente alterou o site após a entrega, o layout não está mais 100%.
