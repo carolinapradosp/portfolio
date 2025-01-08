@@ -1,0 +1,15 @@
+.galeria{
+    padding: 150px 0 40px 0;
+    background: #3a3a3a;
+}
+
+.galeria .swiper-pagination-bullet-active{
+    background-color: #fff;
+}
+
+@media (max-width:768px) {
+    .galeria{
+        padding: 100px 0 0;
+    }
+     
+}

@@ -1,0 +1,33 @@
+.portfolio .cliente {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 40px 0;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.portfolio .cliente:last-child {
+  border-bottom: 0;
+}
+
+.portfolio .cliente h2 {
+  font-size: 24px;
+}
+
+.portfolio .cliente a {
+  color: #292929;
+}
+
+.portfolio img {
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .portfolio .cliente {
+    flex-direction: column;
+  }
+
+.portfolio img {
+width: 100%;
+}
+}

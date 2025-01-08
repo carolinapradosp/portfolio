@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  color: #000;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
+  line-height: 150%;
+}
+
+.quemSou {
+  background-color: #3a3a3a;
+  margin-top: 90px;
+  margin-bottom: -2px;
+}
+
+.quemSou ._text {
+  width: 100%;
+}
+
+.quemSou .container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+
+@media (max-width: 992px) {
+  .quemSou .container {
+    flex-direction: column-reverse;
+  }
+
+  .quemSou {
+    flex-direction: column;
+    padding: 0 24px;
+    background-position: top;
+  }
+
+  .quemSou img {
+    max-width: 300px;
+    height: auto;
+    margin: 0 0 24px 0;
+  }
+
+  #formacao {
+    background-size: cover !important;
+  }
+}
+
+#formacao {
+  background-color: #292929;
+  background-image: url("./images/bg-fornacao.webp");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+  color: #fff;
+  padding: 100px 0;
+  margin-bottom: -2px;
+  text-align: center;
+}
+
+#formacao .container {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1440px;
+  }
+}
+
+/*PORTFÓLIO*/
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+}
+
+.downloadPdf {
+  background-color: #ccc;
+  width: 70px;
+  height: 69px;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  right: -15px;
+}
+
+.downloadPdf svg {
+  width: 30px;
+  margin-left: -15px;
+}
+
+@media (max-width: 768px) {
+  .downloadPdf {
+    top: 86%;
+  }
+}

@@ -1,0 +1,72 @@
+#experiencia {
+  min-width: 100%;
+  margin: 0;
+  padding: 100px 0;
+}
+.experiencia {
+  display: flex;
+}
+
+.experiencia h4,
+.experiencia p {
+  margin: 0;
+  padding: 0;
+}
+
+.experiencia ul {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+.experiencia span {
+  font-size: 11px;
+}
+
+.experiencia .container-experiencias {
+  display: flex;
+  flex-direction: column;
+}
+
+.experiencia .container-experiencias div {
+  margin: 0 0 24px 0;
+}
+
+@media (min-width: 768px) {
+  .experiencia .container-experiencias {
+    padding: 0 75px;
+    width: 70%;
+  }
+
+  .experiencia h2 {
+    width: 30%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .experiencia {
+    flex-direction: column;
+    margin:0 40px;
+  }
+
+  .experiencia h2{
+    margin-bottom: 40px;
+  }
+
+  #experiencia{
+    padding: 60px 0;
+  }
+}
+
+@media (min-width: 1800px) {
+  .experiencia h2 {
+    width: 50%;
+  }
+
+  .experiencia .container-experiencias {
+    width: 50%;
+  }
+}

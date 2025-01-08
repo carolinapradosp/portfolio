@@ -1,0 +1,131 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #323232;
+  background-color: #292929;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  padding: 20px;
+  box-shadow: 1px 13px 26px -14px rgba(0, 0, 0, 0.75);
+  top: 0;
+}
+
+header .container {
+  display: flex;
+  margin: 0 auto;
+}
+
+header .logo {
+  z-index: 9;
+}
+header .logo h1 {
+  color: #fff;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+header .logo span {
+  letter-spacing: 10px;
+  font-weight: 800;
+}
+
+header .menu {
+  display: flex;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+header .menu-list {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  align-items: center;
+  width: 100%;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+header .menu-list li {
+  margin: 0 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 200;
+  transition: color 0.3s ease;
+  font-size: 12px;
+}
+
+header .menu-list li:last-child {
+  margin-right: 0;
+}
+
+header a:link,
+a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: #ebebeb;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 5px;
+}
+
+.hamburger {
+  display: none;
+}
+
+@media (max-width: 1440px) {
+  header .container {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 992px) {
+  header {
+    padding: 24px;
+  }
+  .hamburger {
+    display: block;
+    z-index: 9;
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  header .menu-list {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #292929;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #323232;
+    flex-direction: column;
+    opacity: 0;
+    transform: translateY(-20px);
+    pointer-events: none;
+    visibility: hidden;
+  }
+
+  .menu-list.mobile-open {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: all;
+    visibility: visible;
+    justify-content: center;
+    height: 100vh;
+    gap: 40px;
+    border: 0;
+  }
+}

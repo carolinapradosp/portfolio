@@ -1,0 +1,44 @@
+.container.formulario{
+    max-width: 600px;
+    margin: 60px auto;
+}
+
+.formulario h2{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.formulario h6{
+margin: 20px 0;
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea{
+    border: 0;
+    border-bottom: 1px solid;
+    margin: 8px 0;
+    font-size: 12px;
+    font-weight: 400;
+    color: #000;
+    resize: none;
+}
+
+input:focus-visible, textarea:focus-visible{
+    outline: none;
+}
+
+input[type=submit]{
+    background-color: #343434;
+    color: #fff;
+    border: 0;
+    height: 40px;
+    font-weight: 600;
+    width: 100%;
+}
+
+
+
