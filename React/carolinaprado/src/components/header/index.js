@@ -34,12 +34,12 @@ function Header() {
         </button>
 
         <ul className={`menu-list ${isMobileMenuOpen ? 'mobile-open' : ''}`}>
-          <li><a href='/#top'>Início</a></li>
-          <li><a href="/#skills" onClick={closeMobileMenu}>Skills</a></li>
-          <li><a href="/#experiencia" onClick={closeMobileMenu}>Experiência</a></li>
-          <li><a href="/#formacao" onClick={closeMobileMenu}>Formação</a></li>
+          <li><Link to={'/#top'} onClick={closeMobileMenu}>Início</Link></li>
+          <li><Link to={'/#skills'} onClick={closeMobileMenu}>Skills</Link></li>
+          <li><Link to={'/#experiencia'} onClick={closeMobileMenu}>Experiência</Link></li>
+          <li><Link to={'/#formacao'} onClick={closeMobileMenu}>Formação</Link></li>
           <li><Link to={{pathname:"/portfolio"}}>Portfólio</Link></li>
-          <li><a href="/#contato" onClick={closeMobileMenu}>Contato</a></li>
+          <li><Link to={'/#contato'} onClick={closeMobileMenu}>Contato</Link></li>
         </ul>
       </div>
       </div>
