@@ -126,9 +126,9 @@ const Home = () => {
               companyName="Brivia"
               position="Front-end Freelancer"
               startDate="Set 2024"
-              endDate="Dez 2024"
+              endDate="Fev 2024"
               responsibilities={[
-                "Facelift para e-commerce Luiza Barcelos;",
+                "Facelift para e-commerce utilizando Oracle Commerce Cloud;",
                 "Deploy PRD;",
                 "Versionamento com Git.",
               ]}
